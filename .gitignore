@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+# model is hosted on Hugging Face, never commit it to GitHub
+*.keras
+*.h5
