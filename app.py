@@ -36,7 +36,7 @@ HF_FILENAME = "cnn_mp_classification.keras"      # <-- the file name in that rep
 CLASS_NAMES = {0: "invalid", 1: "valid"}
 
 # Threshold for the sigmoid output
-THRESHOLD = 0.5
+THRESHOLD = 0.7
 
 # ------------------------------------------------------------------
 # Download the model from Hugging Face (once) and cache it
