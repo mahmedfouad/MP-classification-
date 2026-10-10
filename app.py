@@ -110,7 +110,7 @@ if uploaded_files:
                 {
                     "Image name": f.name,
                     "Verification status": status,
-                    "Confidence (%)": f"{confidence:.2f}",
+                    "Confidence (%)": f"{confidence:.0f}",
                 }
             )
 
