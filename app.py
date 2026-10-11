@@ -110,7 +110,7 @@ if uploaded_files:
                 {
                     "Image name": f.name,
                     "Verification status": status,
-                    "Confidence (%)": f"{confidence:.0}",
+                    "Confidence (%)": f"{confidence:.0f}",
                 }
             )
 
@@ -124,7 +124,7 @@ if uploaded_files:
                     st.success(f"Verification status: **{status}**")
                 else:
                     st.error(f"Verification status: **{status}**")
-                st.markdown(f"**Confidence:** {confidence:.0}%")
+                st.markdown(f"**Confidence:** {confidence:.0f}%")
             st.divider()
 
         except Exception as e:
